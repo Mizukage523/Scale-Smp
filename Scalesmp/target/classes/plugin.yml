@@ -1,0 +1,17 @@
+name: Scalesmp
+version: '1.0- Public Release'
+main: me.mizu.scalesmp.Scalesmp
+api-version: '1.21'
+load: STARTUP
+authors: [ Mizukage_ ]
+description: Scale Smp Plugin
+website: https://sites.google.com/view/mizus-events/home
+commands:
+  setscale:
+    description: Set your scale manually.
+    usage: /<command> <scale>
+permissions:
+  scalesmp.use:
+    default: op
+  scalesmp.setscale:
+    default: op
